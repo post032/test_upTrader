@@ -1,0 +1,81 @@
+body {
+  padding: 0;
+  margin: 0 auto;
+  min-width: 320px;
+  font-size: 15px;
+  line-height: 30px;
+  font-family: "PFDinTextPro", "Arial", sans-serif;
+  color: #000000;
+  font-style: normal;
+  position: relative;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  min-width: 376px;
+  max-width: 1900px;
+}
+
+.content {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  min-width: 320px;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+@font-face {
+  font-family: "PFDinTextPro";
+  src: url("../fonts/PFDinTextPro-Regular.woff2") format("woff2"), url("../fonts/PFDinTextPro-Regular.woff") format("woff");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "PFDinTextPro";
+  src: url("../fonts/PFDinTextPro-Medium.woff2") format("woff2"), url("../fonts/PFDinTextPro-Medium.woff") format("woff");
+  font-style: medium;
+  font-weight: medium;
+}
+
+@font-face {
+  font-family: "PFDinTextPro";
+  src: url("../fonts/PFDinTextPro-Light.woff2") format("woff2"), url("../fonts/PFDinTextPro-Light.woff") format("woff");
+  font-style: lighter;
+  font-weight: lighter;
+}

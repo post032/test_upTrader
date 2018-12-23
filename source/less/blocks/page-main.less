@@ -1,0 +1,50 @@
+.page-main {
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  min-height: 622px;
+}
+
+.page-main--close {
+  background: url("../img/bg_1xmobile.jpg") no-repeat center top;
+  background-size: cover;
+  min-height: 622px;
+}
+
+.page-main--open {
+  background: #f3f2da url("../img/imege_book-min.png")  78% 734px no-repeat;
+  background-size: auto;
+  min-height: 100%;
+}
+
+@media (min-width: 600px) {
+  .page-main--open {
+    background: #f3f2da url("../img/bg_1xDesktop-2.jpg") no-repeat right 766px;
+    background-size: contain;
+    min-height: 100%;
+  }
+}
+
+@media (min-width: @size-tablet) {
+  .page-main {
+    background: #f3f2da url("../img/bg_1xDesktop-2.jpg") no-repeat right 122px;
+    background-size: 116%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .page-main {
+    background: #f3f2da url("../img/bg_1xDesktop-2.jpg") no-repeat right top;
+    background-size: auto;
+    min-height: 100%;
+  }
+}
+
+@media (min-width: @size-desktop) {
+  .page-main {
+    background: #f3f2da url("../img/bg_1xDesktop-2.jpg") no-repeat right top;
+    background-size: auto;
+    min-height: 100%;
+  }
+}
