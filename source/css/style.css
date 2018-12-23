@@ -494,8 +494,8 @@ th {
           transition-duration: 2s;
   visibility: hidden;
   opacity: 0;
-  -webkit-filter: brightness(300%);
-          filter: brightness(300%);
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
   filter: alpha(opacity=0);
 }
 .page-header__exit--title {
